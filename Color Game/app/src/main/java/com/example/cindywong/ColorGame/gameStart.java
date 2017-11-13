@@ -171,7 +171,7 @@ public class gameStart extends AppCompatActivity implements View.OnClickListener
         Typeface t = Typeface.create("serif",Typeface.BOLD);
         tv.setTypeface(t);
         tv.setPadding(10,100,10,100);
-        tv.setText("Game Over!");
+        tv.setText("Game Over! ");
         toast.setView(tv);
         toast.show();
 
